@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 
-import Players from "../shared/Players"
+import  Players  from "../shared/Players"
 
 export default class Player extends Component {
     render() {
         return (
-
             <div className="container player">
                  <div className="row row-content">
                  {Players.map((player) => (
@@ -18,20 +17,9 @@ export default class Player extends Component {
                                     <p><button className="btn btn-dark btn-lg btn-block">Detail</button></p>
                                 </div>
                             </div>
-
                 ))}
-
-
-
-                 </div>
-               
-
-
-
+                 </div>             
             </div>
         )
-
-
-
     }
 }

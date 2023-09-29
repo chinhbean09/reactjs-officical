@@ -2,10 +2,8 @@ import  React,{ Component } from "react"
 
 
 
-export default class Navigation extends Component {
-    render() {
+export default function Navigation() {
       return(
-      
         <nav className="navbar navbar-dark navbar-expand-sm fixed-top">
         <button className="navbar-toggler" type="button" data-toggle="collapse"
         data-target="#Navbar">
@@ -22,12 +20,37 @@ export default class Navigation extends Component {
                 <li className="nav-item"><a className="nav-link"  href="#contact">
                 <span class="fa fa-address-card fa-lg"></span>Contact</a></li>
             </ul>
-
         </div>
-            
         </nav>
-      
-  
+
       )
     }
-  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
